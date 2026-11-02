@@ -4,7 +4,6 @@
 #include <QtPlugin>
 #include <QStandardItemModel>
 #include "PlotJuggler/dataloader_base.h"
-#include "csv_parser.h"
 #include "ui_dataload_csv.h"
 #include "QCSVHighlighter"
 
@@ -59,6 +58,4 @@ private:
   QStandardItemModel* _model;
 
   bool multiple_columns_warning_ = true;
-
-  std::vector<PJ::CSV::CombinedColumnPair> _combined_columns;
 };

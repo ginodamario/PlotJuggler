@@ -42,16 +42,6 @@
         </widget>
        </item>
        <item>
-        <widget class="QRadioButton" name="radioButtonDateTimeColumns">
-         <property name="enabled">
-          <bool>false</bool>
-         </property>
-         <property name="text">
-          <string>Combine Date + Time columns</string>
-         </property>
-        </widget>
-       </item>
-       <item>
         <widget class="Line" name="line">
          <property name="orientation">
           <enum>Qt::Horizontal</enum>
@@ -126,16 +116,6 @@
             </size>
            </property>
           </spacer>
-         </item>
-         <item>
-          <widget class="QLabel" name="label_4">
-           <property name="text">
-            <string>Skip lines before header:</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QSpinBox" name="rowBox"/>
          </item>
         </layout>
        </item>
